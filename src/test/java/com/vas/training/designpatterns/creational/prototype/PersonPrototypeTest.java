@@ -1,8 +1,12 @@
 package com.vas.training.designpatterns.creational.prototype;
 
+<<<<<<< HEAD
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
+=======
+import static org.junit.jupiter.api.Assertions.assertFalse;
+>>>>>>> ef67dbe90b2ec3485fae2bb327bf35721d451f4f
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.LocalDate;

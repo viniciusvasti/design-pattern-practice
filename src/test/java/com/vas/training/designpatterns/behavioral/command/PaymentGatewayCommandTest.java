@@ -2,10 +2,12 @@ package com.vas.training.designpatterns.behavioral.command;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class PaymentGatewayCommandTest {
 
+	@DisplayName("Payment Gateway submit should decrease credit limit of account and should reverse latest submit")
 	@Test
 	void test() {
 		CreditAccount creditAccount = new CreditAccount(1000);
